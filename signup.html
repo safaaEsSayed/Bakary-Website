@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/muffin.jpg">
+    <style></style>
+    <link rel="stylesheet" href="css_signup.css">
+</head>
+<body>
+    <h1>Fill out your info</h1>
+    <form action="thanks.html" method="get">
+        <table>
+            <tr><td><label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"></td></tr>
+            <br>
+            <tr><td><label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                </td>
+            </tr>
+             <br>
+        </table>
+        <table>
+            <tr>
+              <td rowspan="3">Gender</td>
+              <tr><td><input type="radio" id="Male" name="gender" value="Male">
+                      <label for="Male">Male</label></td></tr>
+              <tr><td><input type="radio" id="Female" name="gender" value="Female">
+                       <label for="Female">Female</label></td></tr>
+            </tr> 
+        </table>
+        <table>
+         <tr>
+           <td rowspan="4">Flavor</td>
+           <tr><td><input type="checkbox" name="pepperoni" value="Pepperoni">
+                   <label for="pepperoni"> Pepperoni</label></td></tr>
+           <tr><td><input type="checkbox" name="cheese" value="Cheese Lovers">
+                   <label for="cheese"> Cheese Lovers</label></td></tr>
+           <tr><td><input type="checkbox" name="bakon" value="Bakon" >
+                   <label for="bakon"> Bakon</label></td></tr>
+         </tr> 
+        </table>
+ 
+        <table>
+          <tr>
+            <td><label for="Comment">Comment</label></td>
+            <td><textarea id="Comment" name="Comment" rows="10" cols="40"></textarea></td>
+          </tr> 
+        </table>
+        <br>
+        <input type="submit" value="Submit" />
+        
+        
+     </form>
+</body>
+</html>
